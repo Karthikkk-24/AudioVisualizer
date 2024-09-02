@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="m-0 p-0 overflow-hidden">
+    <div class="absolute top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
+        <input type="file" name="" accept="audio/*" id="audio"
+            class="mb-4 px-4 py-2 rounded-md bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-gray-300">
+    </div>
+    <canvas id="canvas" class="w-screen h-screen bg-[#ADD8E6]"></canvas>
+    <script src="index.js"></script>
+</body>
+
+</html>
